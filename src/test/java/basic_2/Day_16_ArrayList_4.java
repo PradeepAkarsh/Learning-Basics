@@ -25,6 +25,7 @@ public class Day_16_ArrayList_4 {
         names.add("Kitty");
         names.addAll(animals); // This method addAll() is used to merge another List into this  List.
 
+
         ListIterator<String> it = names.listIterator(); // Using ListIterator we can travers execution in different ways.
 
         while (it.hasNext()){
