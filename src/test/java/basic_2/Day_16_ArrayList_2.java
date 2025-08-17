@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /*
-
+Sort the list Using Collections class
 */
 public class Day_16_ArrayList_2 {
     public static void main(String[] args) {
