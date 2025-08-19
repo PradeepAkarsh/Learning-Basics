@@ -1,11 +1,24 @@
 1. Re-Usable methods starts from 13_DataGeneration_Example2 class on wards.
+
 2. To create a property file manually, right click on project name - new - Select File,
    give name as config or any meaning name you can give, and at the ending give ( .properties ) as extension
    so that it creates a property file, and click Enter.
    Exp:-> config.properties
+
 3. To Create Property file programmatically, follow the Day_14_Property_File. video.
 
 4. If there is two String then you can declare once and use one after another using (,).
    Exp:-> String a = "1", b = "2"; like this you can use multiple lines in single line. This is code optimizing.
 
 5. In Generic class, we store all re-usable methods.
+
+6. Remove Duplicate values using HashSet.
+
+7. Map or HashMap(Child class), stores the value in the form of Key and Value.
+
+8. Hashtable and HashMap difference is,
+   HashMap class accepts null value but Hashtable class doesn't allow null value, it throws NullPointer exception.
+
+9. Core Java part is completed at Day_18_Map Class.
+10. TestNG is Started from Day_19_TestNG class. its package name is basic3.
+11.
