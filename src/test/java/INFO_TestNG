@@ -1,0 +1,17 @@
+1. To run all classes at a time, Select the classes which you want to run, right click -> Create TestNG XML
+   you will see pop up, close it, and if you don't find the testng.xml in the project structure.
+   Right click on project -> Reload from disk, select it and you will see testng.xml file.
+2. Open TestNG.xml file, it will be not in correct order, so select all by pressing ctrl+A ,
+   go to code option in tab -> reformat code, or press shortcut key  ctrl+alt+L, it will format the code.
+3. now rename the test name, remove all unwanted tags, keep only <classes> <class> tag,
+   if you don't want to use closing tag for <class> then use <class name= "abcd"/>
+   forward slash to close the tag.
+4. then you can add multiple <class> tags in the <classes> tag. now if you want to run this all class
+   right click on testng.xml file --> run testng.xml. it will run all class one after another.
+5. If you want to run classes in parallel then in testng.xml file make changes to <suit> tag <suite name="All Test Suite"parallel="classes">
+   add attribute ( parallel= "classes"). then all class will run parallel.
+6. If You want to create a Emailable-report then follow the steps.
+   Go to tab option Run --> Edit Configurations --> You can Rename th report --> click on Listener -->  click on plus + icon
+   type in search box EmailReport and click on that class and press ok button --> check the option (Use default reporters)
+   and click on Apply and OK.
+7. Run the testng.xml file,
